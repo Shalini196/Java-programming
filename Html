@@ -1,0 +1,70 @@
+<!Doctype Html>  
+<Html>     
+<Head>      
+<Title> Registration form   
+</Title>  
+</Head>  
+<Body> course registration form   
+<br>    
+<form>    
+<label> Firstname </label>           
+<input type="text" name="firstname" size="15"/> <br> <br>   
+<label> Lastname: </label>           
+<input type="text" name="lastname" size="15"/> <br> <br>    
+<label>     
+Courses Completed  :    
+</label>     
+<select>    
+<option value="Course">Course</option>    
+<option value="cse">CSE</option>    
+<option value="ece">ECE</option>    
+<option value="ee">EEE</option>    
+<option value="bs">BSc</option>    
+<option value="bt">B.tech</option>    
+<option value="M.Tech">M.Tech</option>    
+</select>    
+<br>    
+<br>    
+<label>     
+Gender :    
+</label><br>    
+<input type="radio" name="gender"/> Male <br>    
+<input type="radio" name="gender"/> Female <br>    
+<input type="radio" name="gender"/> Other    
+<br>    
+<br>    
+<label>  
+Interested area:  
+</label>    
+<br>    
+<input type="checkbox" name="Programg"> Data Analytical <br>    
+<input type="checkbox" name="Cloud computing "> Cloud computing <br>    
+<input type="checkbox" name="AI"> Artificial Intelligence  <br>   
+<input type="checkbox" name="BD"> Big data <br>   
+<br>    
+<br>   
+<label>     
+Phone :    
+</label>      
+<input type="text" name="phone" size="10"> <br> <br>    
+Address    
+<br>    
+<textarea cols="80" rows="5" value="address">    
+</textarea>    
+<br> <br>    
+Email:    
+<input type="email" id="email" name="email"> <br>      
+<br> <br>    
+Password:    
+<input type="Password" id="pass" name="pass"> <br>     
+<br> <br>    
+<input type="submit" value="Submit">    
+<input type="reset" value="Reset">  
+</form>   
+<script>function changecolor(){
+                let randomColor=Math.floor(Math.random()*16777215).toString(16);
+                document.body.style.backgroundColor='#'+randomColor;
+            } 
+</script>
+</Body>   
+</Html>
